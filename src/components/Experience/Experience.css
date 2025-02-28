@@ -1,0 +1,22 @@
+.experience-container {
+  background-color: #e5e7eb;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-container:hover {
+  transform: scale(1.05); /* Scale up */
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.experience-image img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.experience-name {
+  font-weight: bold;
+  background: linear-gradient(90deg, #34d399, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,40 @@
+.project-container {
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-container:hover {
+  transform: scale(1.05); /* Scale up */
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15); /* Add shadow */
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-description {
+  color: #6b7280;
+}
+
+.project-button {
+  text-decoration: none;
+  background: linear-gradient(90deg, #34d399, #3b82f6);
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.github-button {
+  width: 25%;
+}
+
+.demo-button {
+  width: 33%;
+}

@@ -1,23 +1,22 @@
-// Skill.js
 import React from "react";
 import "./Skill.css";
 
 function Skill({ icon, skill, progress }) {
   return (
-    <div className="skill-container col pt-2 text-center mx-3">
-      <div className="skill-icon text-4xl mb-2">
-        <img src={icon} alt="img" />
+    <div className="col-md-4 col-lg-2 skill-container align-items-center text-center mb-4 mx-3">
+      <div className="skill-icon mb-2 ">
+        <img src={icon} alt={skill} className="img-fluid" style={{ maxHeight: "60px" }} />
       </div>
-      <h3 className="skill-title fw-bold px-5 fs-5 mb-3">{skill}</h3>
-      <div className="skill-progress-wrapper">
-        <div className="skill-progress-bar mx-3">
+      <h3 className="skill-title fw-bold fs-6">{skill}</h3>
+      <div className="skill-progress-wrapper mt-2">
+        <div className="skill-progress-bar mx-auto">
           <div
             className="skill-progress-fill"
             style={{ width: `${progress}%` }}
           ></div>
         </div>
       </div>
-      <p className="skill-progress-text mt-2 font-medium">{progress}%</p>
+      <p className="skill-progress-text mt-2 ">{progress}%</p>
     </div>
   );
 }

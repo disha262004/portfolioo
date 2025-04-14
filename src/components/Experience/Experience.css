@@ -20,3 +20,38 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Responsive weaks */
+@media (max-width: 768px) {
+  .experience-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .experience-logo {
+    margin-bottom: 1rem;
+  }
+
+  .experience-container .col-md-10 {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .experience-container {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .experience-name {
+    font-size: 1rem;
+  }
+
+  .experience-image {
+    width: 100px;
+    margin-left: 100px;
+    
+  }
+}

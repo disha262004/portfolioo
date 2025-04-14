@@ -1,11 +1,13 @@
 import React from 'react'
 import Experience from './Experience';
-function Experinces() {
+import './Experience.css';
+
+function Experiences() {
     return ( 
         <div className="container py-5" id='experience'>
         <h2 className="fw-bold text-center my-5">My Experience</h2>
             <Experience 
-                imageUrl="media\images\metablock.webp"
+                imageUrl="media/images/metablock.webp"
                 name="Metablock Technologies" 
                 position="Frontend Developer Intern" 
                 period="July 2024 - September 2024 - Jaipur, Rajasthan"
@@ -14,4 +16,4 @@ function Experinces() {
     
      );
 }
-export default Experinces;
+export default Experiences;

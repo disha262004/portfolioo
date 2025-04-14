@@ -1,21 +1,65 @@
 .education-container {
-    background-color: #e5e7eb;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #e5e7eb;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  margin: 10px auto;
 }
 
+/* Hover effect */
 .education-container:hover {
-    transform: scale(1.05); /* Scale up */
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15); /* Add shadow */
+  transform: scale(1.05);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Education logo styling */
+.education-logo {
+  border-radius: 100%;
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Gradient name style */
+.education-name {
+  background: linear-gradient(90deg, #34d399, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .education-container {
+    text-align: center;
+    padding: 15px;
   }
 
-.education-logo {
-    border-radius: 100%;
-    width: 100%;
+  .education-name {
+    font-size: 1.1rem;
+  }
+
+  .education-logo {
+    max-width: 100px;
+  }
 }
 
-.education-name {
-    background: linear-gradient(90deg, #34d399, #3b82f6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+@media (max-width: 576px) {
+  .education-container {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .education-name {
+    font-size: 1rem;
+  }
+
+  .education-logo {
+    max-width: 80px;
+  }
 }

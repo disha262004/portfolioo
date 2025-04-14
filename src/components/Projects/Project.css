@@ -36,5 +36,15 @@
 }
 
 .demo-button {
+  margin-left: 20px;
   width: 33%;
+}
+
+@media (max-width: 576px) {
+  .project-button {
+    width: 40%;
+    margin: 5px 0;
+    margin-left: 10px;
+    text-align: center;
+  }
 }

@@ -3,7 +3,7 @@ import "./Skill.css";
 
 function Skill({ icon, skill, progress }) {
   return (
-    <div className="col-md-4 col-lg-2 skill-container align-items-center text-center mb-4 mx-3">
+    <div className="col-6 col-md-4 col-lg-2 skill-container align-items-center text-center mb-4 mx-3">
       <div className="skill-icon mb-2 ">
         <img src={icon} alt={skill} className="img-fluid" style={{ maxHeight: "60px" }} />
       </div>

@@ -29,7 +29,7 @@
 }
 
 .skill-progress-bar {
-  height: 0.75rem;
+  height: 0.5rem;
   background: #d1d5db;
   border-radius: 9999px;
   overflow: hidden;
@@ -49,6 +49,7 @@
   font-size: 0.9rem;
   margin-top: 5px;
 }
+
 
 @media (max-width: 576px) {
   .experience-container {

@@ -42,7 +42,7 @@ function Skills() {
             imageUrl="media/images/portfolioImg.png"
             title="My Portfolio"
             description="HTML, CSS, Javascript, React"
-            githubUrl="https://github.com/disha262004/Portfolio"
+            githubUrl="https://github.com/disha262004/portfolioo"
             demoUrl="https://disha262004.github.io/Portfolio/"
           />
         </div>

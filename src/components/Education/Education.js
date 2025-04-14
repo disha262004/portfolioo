@@ -3,11 +3,11 @@ import './Education.css';
 
 function Education({ imageUrl, name, course, period, percentage }) {
   return (
-    <div className="education-container row align-items-center my-4 py-3">
-      <div className="col-12 col-md-2 text-center mb-3 mb-md-0">
+    <div className="education-container row my-4 py-3">
+      <div className="col-1 my-1 p-3">
         <img src={imageUrl} alt="logo" className="education-logo" />
       </div>
-      <div className="col-12 col-md-10 text-md-start text-center">
+      <div className="col-11">
         <h4 className="education-name fw-bold">{name}</h4>
         <h5>{course}</h5>
         <p className="text-muted">
